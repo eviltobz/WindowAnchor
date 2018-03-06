@@ -18,6 +18,9 @@ namespace WindowAnchor
             InitializeComponent();
         }
 
+        // Tips about making the Windows system calls found at:
+        // http://www.pinvoke.net/search.aspx?search=monitors&namespace=[All]
+
         private void Refresh_Click(object sender, EventArgs e)
         {
             Output.Clear();
